@@ -11,7 +11,7 @@ A high-performance, flexible and easy to use Video compressor library written by
 Set `VideoQuality` to get different quality of video, beside:
 
 ```swift
- VideoCompressorSwift().videoCompress(inputUrl: yourVideoPath, quality: .medium) { result in
+VideoCompressorSwift().videoCompress(inputUrl: yourVideoPath, quality: .medium) { result in
             switch result {
             case .failure(let error):
             case .success(let url):
