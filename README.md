@@ -47,7 +47,13 @@ dependencies: [
     .package(url: "https://github.com/ghafarzadeh/VideoCompressorSwift.git", .upToNextMajor(from: "0.0.1"))
 ]
 ```
-
+<!-- LICENSE -->
 ## License
 
-VideoCompressorSwift is released under the MIT license.
+Distributed under the MIT License. See <a href="https://github.com/ghafarzadeh/SpaceX/blob/main/LICENSE">LICENSE.txt</a> for more information.
+
+
+<!-- CONTACT -->
+## Contact
+
+Habib Ghaffarzadeh - [LinkedIn](https://www.linkedin.com/in/habib-ghafarzadeh-b4303939/) - [Twitter](https://twitter.com/h_ghafarzadeh) - habib.ghafarzadeh@gmail.com
