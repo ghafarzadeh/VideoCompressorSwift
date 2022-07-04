@@ -23,10 +23,10 @@ Set `VideoQuality` to get different quality of video, beside:
 
 ```swift
 VideoCompressorSwift().videoCompress(inputUrl: url,
-                                             outputFileType: .mov,
-                                             videoSettings: VideoCompressorSwift().createVideoSettingsForPreset(.medium, 1000_000, size: CGSize(width: 640, height: 480)),
-                                             audioSampleRate: 44100,
-                                             audioBitrate: 128_000) { res in
+                                     outputFileType: .mov,
+                                     videoSettings: VideoCompressorSwift().createVideoSettingsForPreset(.medium, 1000_000, size: CGSize(width: 640, height: 480)),
+                                     audioSampleRate: 44100,
+                                     audioBitrate: 128_000) { res in
             switch result {
             case .failure(let error):
             case .success(let url):
